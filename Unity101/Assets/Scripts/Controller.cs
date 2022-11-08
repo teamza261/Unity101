@@ -19,9 +19,6 @@ public class Controller : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            //print("hello"); 
-
-            //transform.position = new Vector3(0, 2, 0);
             transform.position = new Vector3(transform.position.x + 0f, transform.position.y + 0.01f, 0);
         }
         if (Input.GetKey(KeyCode.S))
