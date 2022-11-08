@@ -34,7 +34,7 @@ public class Controller : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y + 0, 0);
+            transform.position = new Vector3(transform.position.x + 0.01f, transform.position.y + 0f, 0);
         }
     }
 }
